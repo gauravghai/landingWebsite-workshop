@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+* {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+body {
+    background-color: #222 !important;
+
+}
+.section-one {
+    background-color: 'red';
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+#section-two {
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    margin: 10px;
+}
+.home-view {
+    height: 100vh;
+}
+h1 {
+    font-size: 100px !important;
+    font-weight: bold !important;
+}
+button {
+    background: white;
+    font-size: 20px !important;
+}
+.dark-bg {
+    background-color: #1f1f1f;
+}
+.card-white {
+    background-color: white;
+    border-radius: 16px;
+}
+.card-orange {
+    background-color: #f06d55;
+    color: white;
+    border-radius: 16px;
+}
+.custom-button-orange {
+    background-color: #f06d55;
+}
+.custom-button-black {
+    background-color: #222;
+}
+.custom-button-orange, .custom-button-black {
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    .home-view {
+        height: auto !important;
+    }
+}
+    </style>
+</head>
+<body>
+    <form action="">
+        <input type="text" required>
+        <button type="submit">click</button>
+    </form>
+    <section class="home-view">
+        <div class="container h-100">
+            <div class="d-flex justify-content-center align-items-center h-100 flex-wrap">
+                <div class="col-md-6 col-12 d-md-none d-block">
+                    <img src="./images/gaurav.png" alt="">
+                </div>
+
+                <div class="col-md-6 col-12">
+                    <h1 class="text-white col-6" style="line-height: 1em;"><span>Gaurav</span> Ghai</h1>
+                    <p class="text-white mt-3">UI/UX Developer, Programmer & Graphic Artist.</p>
+                    <div class="d-flex social pt-1">
+                        <div class="pe-3">
+                            <a class="text-white" target="_blank" href="https://www.linkedin.com/in/gauravvghai/"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                        <div class="pe-3">
+                            <a class="text-white" target="_blank" href="https://github.com/gauravghai"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="pe-3">
+                            <a class="text-white" target="_blank" href="https://www.instagram.com/gauravvghai/"><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="pe-3">
+                            <a class="text-white" target="_blank" href="https://www.facebook.com/gauravvghai"><i class="fab fa-facebook-square"></i></a>
+                        </div>
+                        <div class="pe-3">
+                            <a class="text-white" target="_blank" href="https://youtube.com/htmlhints"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <button class="mt-3 custom-button-orange px-4 py-2">
+                        Let's Chat
+                    </button>
+                </div>
+        
+                <div class="col-md-6 col-12 d-md-block d-none">
+                    <img src="./images/gaurav.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-view dark-bg py-5">
+        <div class="container">
+            <div class="d-flex flex-wrap">
+                <div class="col-md-6 col-12 text-white">
+                    <h2>About Me</h2>
+                    <p class="col-11">I am extremely proficient in Front-End Development using HTML5, Cascade Style Sheets (CSS3), Bootstrap, Advance Javascript, React.Js & Vue.Js And apart from Front-End, I have good knowledge in Back-End using PHP & MySQL as well as in designing using Adobe Photoshop, Adobe Illustrator, Adobe XD, Sketch & Figma, and continuously engage in trying to extend my skills with new technology.</p>
+                </div>
+        
+                <div class="col-md-6 col-12 text-white">
+                    <div class="d-flex align-items-center">
+                        <div>
+                            <h2>Any Type Of Query & Discussion</h2>
+                            <p>gauravghai@htmlhints.com</p>
+                           <button class="custom-button-orange px-4 py-2">Download Resume</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="work-view">
+        <div class="container py-5">
+            <div class="d-flex align-items-center flex-wrap">
+                <div class="d-flex card-white col-md-10 col-12 flex-wrap px-5 my-4 ms-auto">
+                    <div class="col-md-8 col-12  py-5 "> 
+                       <div class="">
+                            <p>Live Coding Workshop</p>
+                            <h2>Career Booster Workshop For A Front-End Web Developer</h2>
+                            <p>Level up your skills by joining live coding workshop for Front-end developer.</p>
+                            <button class="custom-button-orange px-4 py-2">Join Now</button>
+                       </div>
+                    </div>
+                    <div class="col-md-4 col-12 d-flex align-items-center justify-content-md-end d-md-block d-none"><i class="fas fa-3x fa-arrow-circle-right" style="color: rgb(240, 109, 85);"></i></div>
+                </div>
+                <div class="d-flex card-orange col-md-10 col-12 flex-wrap px-5 my-4">
+                    <div class="col-md-8 col-12  py-5 "> 
+                       <div class="">
+                            <p>Live Coding Workshop</p>
+                            <h2>Career Booster Workshop For A Front-End Web Developer</h2>
+                            <p>Level up your skills by joining live coding workshop for Front-end developer.</p>
+                            <button class="custom-button-black px-4 py-2">Join Now</button>
+                       </div>
+                    </div>
+                    <div class="col-md-4 col-12 d-flex align-items-center justify-content-md-end d-md-block d-none"><i class="fas fa-3x fa-arrow-circle-right" style="color: #222;"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="inquiry-view">
+        <div class="container py-5">
+            <div class="d-flex align-items-center flex-wrap justify-content-center">
+                <div class="d-flex flex-wrap card-white col-md-8 col-12 px-5 my-4">
+                    <div class="col-md-8 col-12  py-5 "> 
+                       <div class="">
+                            <h2>Work Inquiry</h2>
+                            <p>Let's work together and i'll help you by all my best</p>
+                       </div>
+                    </div>
+                    <div class="col-md-8 col-12  d-flex align-items-center justify-content-md-end pb-5"><button>Let's Chat</button></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center text-white dark-bg py-5">
+        <h2>Stay Connected</h2>
+        <div class="mt-2">
+            <p><small>New Delhi, India</small></p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+* {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+body {
+    background-color: #222 !important;
+
+}
+.section-one {
+    background-color: 'red';
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+#section-two {
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    margin: 10px;
+}
+.home-view {
+    height: 100vh;
+}
+h1 {
+    font-size: 100px !important;
+    font-weight: bold !important;
+}
+button {
+    background: white;
+    font-size: 20px !important;
+}
+.dark-bg {
+    background-color: #1f1f1f;
+}
+.card-white {
+    background-color: white;
+    border-radius: 16px;
+}
+.card-orange {
+    background-color: #f06d55;
+    color: white;
+    border-radius: 16px;
+}
+.custom-button-orange {
+    background-color: #f06d55;
+}
+.custom-button-black {
+    background-color: #222;
+}
+.custom-button-orange, .custom-button-black {
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    .home-view {
+        height: auto !important;
+    }
+}
