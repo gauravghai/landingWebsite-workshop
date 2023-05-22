@@ -1,0 +1,8 @@
+.home-view {
+    height: 100vh;
+    background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
