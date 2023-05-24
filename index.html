@@ -11,31 +11,79 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
     <section class="home-view">
-        <div class="col-4" >
-            <h1 class="text-center" style="font-size: 3em !important;">Find the Best Solution in Seconds</h1>
+        <nav class="navbar navbar-expand-lg mb-5">
+            <div class="container">
+                <div class="col-2">
+                    <a class="navbar-brand m-0" href="#">
+                        <img src="./images/logo.png" alt="">
+                    </a>
+                </div>
+                <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> -->
+                <div class="collapse navbar-collapse justify-content-center col-8" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link text-white px-4" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white px-4" href="#">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white px-4" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white px-4" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <button>Sign Up</button>
+                </div>
+            </div>
+          </nav>
+
+          <div class="inner mt-5 pt-5">
+            <div>
+                <h1 class="text-center col-6 m-auto" style="font-size: 3em !important;">Find the Best Solution in Seconds</h1>
+                <div>
+                    <img src="./images/dashboard.png" alt="">
+                </div>
+            </div>
+          </div>
+    </section>
+
+    <section class="card-view container py-5 my-5">
+        <h2 class="text-center col-6 m-auto" style="font-size: 3em !important;">FigmaLand was Built Specifically for You</h2>
+        <div class="d-flex mt-5">
+            <div class="col-4">
+                <div class="card m-2">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card m-2">
+                    <div class="card-body custom-bg">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card m-2">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 </body>

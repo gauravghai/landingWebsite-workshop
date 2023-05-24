@@ -1,8 +1,13 @@
 .home-view {
-    height: 100vh;
+    height: 110vh;
     background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%); 
+}
+.home-view .inner {
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
+}
+.card-view .card .card-body.custom-bg {
+    background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);
 }
