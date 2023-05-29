@@ -1,5 +1,5 @@
 .home-view {
-    height: 110vh;
+    height: 130vh;
     background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%); 
 }
 .home-view .inner {
@@ -10,4 +10,22 @@
 }
 .card-view .card .card-body.custom-bg {
     background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);
+}
+.btn-custom-trabsparent {
+    background: transparent;
+    color: #03D6F3;
+    border: none;
+    padding-left: 0;
+}
+.card-shadow {
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+.card-customBG-gradient {
+    background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);
+}
+.process-view .inner-content, .operations-view .inner-content, .solutions-view .inner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
