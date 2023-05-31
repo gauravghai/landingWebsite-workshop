@@ -1,3 +1,6 @@
+h1 {
+    font-size: 3em !important;
+}
 .home-view {
     height: 130vh;
     background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%); 
@@ -28,4 +31,40 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.subscribe-view {
+    border: 1px solid #5C5C5C;
+}
+footer {
+    background: #112D57;
+}
+.button-transparent-outline {
+    background: transparent;
+    color: white;
+    border: 1px solid;
+    font-size: 12px;
+    border-radius: 20px;
+}
+.button-bg-blue {
+    background: #03D6F3;
+    color: white;
+    border: 1px solid #03D6F3;
+    border-radius: 35px;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+}
+.button-bg-white-green-outline {
+    background: white;
+    color: #30D7BA;
+    border: 1px solid #30D7BA;
+    font-size: 12px;
+    border-radius: 35px;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+}
+@media screen and (max-width: 720px){
+    .home-view {
+        height: 100% !important;
+    }
+    h1 {
+        font-size: 2em !important;
+    }
 }
