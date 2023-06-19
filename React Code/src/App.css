@@ -1,0 +1,7 @@
+.weatherApp {
+  height: 50vh;
+  width: 50%;
+  background-image: url('./images/bg.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
